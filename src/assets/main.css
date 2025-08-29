@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+:root {
+    --primary-color: #3D582F;
+    --primary-inverse-color: white;
+    --secundary-color: #BE8B71;
+    --secundary-inverse-color: #2A2A2A;
+    --terciary-color: #459245;
+    --terciary-inverse-color: black;
+    --darker-color: #2A2A2A;
+    --darker-inverse-color: white;
+
+}
+
+.bg-primary{
+    background-color: var(--primary-color);
+    color: var(--primary-inverse-color)
+}
+.color-primary{
+    color: var(--primary-color)
+}
+
+.bg-secundary{
+    background-color: var(--secundary-color);
+    color: var(--secundary-inverse-color)
+}
+.color-secundary{
+    color: var(--secundary-color)
+}
+.bg-terciary{
+    background-color: var(--terciary-color);
+    color: var(--terciary-verse-color)
+}
+.color-terciary{
+    color: var(--terciary-color)
+}
+.bg-darker{
+    background-color: var(--darker-color);
+    color: var(--darker-inverse-color)
+}
+.color-darker{
+    color: var(--darker-color)
+}

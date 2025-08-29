@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col items-center justify-center h-screen bg-gray-100">
-      <div class="w-full max-w-sm p-8 bg-white rounded-lg shadow-lg">
+      <div class="w-full max-w-sm p-8 bg-white rounded-lg border border-gray-300 shadow-lg">
         <h2 class="mb-6 text-2xl font-bold text-center text-gray-800">Entrar</h2>
         <form @submit.prevent="handleLogin" class="flex flex-col gap-4">
           <input 
@@ -19,7 +19,7 @@
           />
           <button
             type="submit"
-            class="p-3 font-semibold text-white transition-colors duration-200 bg-blue-500 rounded-md hover:bg-blue-600"
+            class="p-3 font-semibold transition-colors duration-200 bg-primary rounded-md hover:bg-blue-600"
           >
             Entrar
           </button>
